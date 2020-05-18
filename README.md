@@ -34,3 +34,5 @@ Checkout the [demo here and enjoy counting :)](https://rihannake.github.io/mobil
   <iframe src="https://dartpad.dev/embed-flutter.html?id=[gist_id]"></iframe>
 ```
   For customizing your embedded dart pad checkout out [embedding dart pad guide](https://github.com/dart-lang/dart-pad/wiki/Embedding-Guide)
+
+The template is built using: bootstrap 4.5.0, font-awsome 5.13.0, jquery 3.5.1,  jquery.easing 1.4.1, [html5-device-mock](https://github.com/pixelsign/html5-device-mockups) 
