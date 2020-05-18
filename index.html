@@ -6,7 +6,7 @@
   <meta name="description" content="Showcase site for a mobile app with intreactive flutter compiled code">
   <meta name="author" content="Rihanna Kedir">
   <title>Showcase with Flutter web</title>
-  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link rel="icon" type="image/png"  href="/favicon">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <!-- Fontawsome  CSS -->
@@ -59,7 +59,7 @@
               <br>
               It's your Flutter compiled code!!
             </h1>
-            <a href="#" class="btn btn-outline btn-xl scroller-tigger" 
+            <a href="web/index.html" class="btn btn-outline btn-xl scroller-tigger" 
               alt="full page app" target="_blank">Full page experience!</a>
           </div>
         </div>
@@ -68,7 +68,8 @@
             <div class="device-wrapper">
               <div class="device" data-device="Pixel" data-orientation="portrait" data-color="black">
                 <div class="screen">
-                  <img class="device-content" src="img/bk-device.jpg" alt="backgorund image"/>
+                  <iframe class="device-content" title="Flutte compiled web app" src="web/index.html">
+                  </iframe>
                 </div>
               </div>
             </div>
@@ -108,7 +109,8 @@
             <div class="device-wrapper">
               <div class="device" data-device="iPhone6" data-orientation="portrait" data-color="black">
                 <div class="screen">
-                  <img class="device-content" src="img/bk-device.jpg" alt="backgorund image"/>
+                  <iframe class="device-content" title="Flutte compiled web app" src="web/index.html" loading="eager">
+                  </iframe>
                 </div>
               </div>
             </div>
@@ -163,7 +165,7 @@
       </div>
       <div class="col-lg-10 my-auto">
         <div class="tool-container">
-          <img class="device-content" src="img/bk-device.jpg" alt="backgorund image"/>
+          <iframe src="https://dartpad.dev/embed-flutter.html?id=1af7bc72cda500cee6a031339104a373&theme=dark&run=false"></iframe>
         </div>
       </div>
     </div>
@@ -194,6 +196,22 @@
       </ul>
     </div>
   </section>
+
+  <!-- chat button and container -->
+  <span>
+    <button id="chat-button" class="chat_btn" onclick="openChatContainer()"><i class="fa fa-comments" aria-hidden="true"></i></button>
+  
+    <div class="chat-popup" id="chat-popup">
+      <div class="container chat_header">
+        <button class="close" onclick="closeChatContainer()"></button>
+      </div>
+      <div class="chat-container">
+        <iframe  title="Flutte compiled web app" src="web/index.html">
+        </iframe>
+      </div>
+    </div>
+  </span>
+  
  
   <footer>
     <div class="container">
