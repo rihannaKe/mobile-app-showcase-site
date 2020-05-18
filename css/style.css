@@ -418,6 +418,17 @@ footer p {
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
+.chat-container {
+  height:500px;
+  padding:5px;
+  background-color: #9c27b0;
+}
+
+.chat-container iframe{
+  height:100%;
+  width:100%;
+  border: none;
+}
 
 /* Add styles to the form container */
 .form-container {
@@ -429,13 +440,15 @@ footer p {
 
 .chat_header{
   height: 35px;
+  display: block;
+  background-color: #9c27b0;
 }
 .close {
   position: absolute;
   right: 10px;
   top: -10px;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   opacity: 0.3;
 }
 .close:hover {
@@ -447,7 +460,7 @@ footer p {
   content: ' ';
   height: 33px;
   width: 2px;
-  background-color: #333;
+  background-color: white;
 }
 .close:before {
   transform: rotate(45deg);
