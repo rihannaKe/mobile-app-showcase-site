@@ -21,7 +21,7 @@ Checkout the [demo here and enjoy counting :)](https://rihannake.github.io/mobil
   with iframe tag
 
 ```html
-  <iframe  title="Flutte compiled web app" src="web/index.html"></iframe>
+  <iframe  title="Flutter compiled web app" src="web/index.html"></iframe>
 ```
 
 ### How to embed dart.pad in your page
