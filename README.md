@@ -6,7 +6,7 @@ Checkout the [demo here and enjoy counting :)](https://rihannake.github.io/mobil
 
 ### How to embed a Flutter compiled intractive content?
 
- Clone the repo from [this repo] (https://github.com/rihannaKe/mobile-app-showcase-site.git) 
+ Clone the repo from [this repo](https://github.com/rihannaKe/mobile-app-showcase-site.git) 
  and checkout to flutter-content branch.
 
  After you build the web version of your Flutter app, you can deploy it anywhere you want or you can simply copy the 
