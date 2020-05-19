@@ -424,6 +424,7 @@ footer p {
   background-color: #9c27b0;
 }
 
+
 .chat-container iframe{
   height:100%;
   width:100%;
@@ -437,7 +438,9 @@ footer p {
   background-color: white;
   min-height: 500px;
 }
-
+.external-icon{
+  color: #ffffff8c;
+}
 .chat_header{
   height: 35px;
   display: block;

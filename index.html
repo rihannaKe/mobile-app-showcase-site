@@ -19,7 +19,7 @@
 </head>
 
 <body id="landing-page">
-  <!-- Navigation -->
+ <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="the-nav">
     <div class="container">
       <a class="navbar-brand scroller-tigger" href="#landing-page">
@@ -68,8 +68,7 @@
             <div class="device-wrapper">
               <div class="device" data-device="Pixel" data-orientation="portrait" data-color="black">
                 <div class="screen"> 
-                  <iframe class="device-content" title="Flutter compiled web app" src="web/index.html">
-                  </iframe>
+                  <iframe  class="device-content" title="Flutter compiled web app" src="web/index.html"></iframe>
                 </div>
               </div>
             </div>
@@ -109,8 +108,7 @@
             <div class="device-wrapper">
               <div class="device" data-device="iPhone6" data-orientation="portrait" data-color="black">
                 <div class="screen">
-                  <iframe class="device-content" title="Flutter compiled web app" src="web/index.html" loading="eager">
-                  </iframe>
+                  <iframe  class="device-content" title="Flutter compiled web app" src="web/index.html"></iframe>
                 </div>
               </div>
             </div>
@@ -197,12 +195,13 @@
     </div>
   </section>
 
-   <!-- chat button and container -->
-   <span>
-    <button id="chat-button" class="chat_btn" onclick="openChatContainer()"><i class="fa fa-comments" aria-hidden="true"></i></button>
-  
+  <span>
+    <button id="chat-button" class="chat_btn" onclick="openChatContainer()"><i class="fa fa-comments"   aria-hidden="true"></i></button>
     <div class="chat-popup" id="chat-popup">
       <div class="container chat_header">
+        <a href="https://rihannake.github.io/flutter_dialogflow_bot/build/web/index.html" target="_blank">
+          <i class="fas fa-2x fa-external-link-alt external-icon"></i>
+        </a>
         <button class="close" onclick="closeChatContainer()"></button>
       </div>
       <div class="chat-container">
